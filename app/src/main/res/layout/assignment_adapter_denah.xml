@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lnly_root_00"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@drawable/bkg_denah"
+        android:padding="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imvw_denah_00"
+            android:src="@drawable/ic_profile"
+            android:scaleType="center"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

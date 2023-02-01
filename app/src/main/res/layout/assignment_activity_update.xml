@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        layout="@layout/header_standard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/lnly_body_00"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.wadaro.collector.component.SelectView
+                android:id="@+id/slvw_status_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.wadaro.collector.component.InputBasicView
+                android:id="@+id/input_pay_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.wadaro.collector.component.SelectView
+                android:id="@+id/slvw_expiered_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.wadaro.collector.component.InputBasicView
+                android:id="@+id/input_note_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.wadaro.collector.component.SelectView
+                android:id="@+id/slvw_reason_00"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:id="@+id/lnly_photo_00"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foto Kondisi Barang" />
+                <RelativeLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/backround_photo"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp">
+                    <ImageView
+                        android:id="@+id/imvw_icon_01"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_cloud_upload"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+                    <TextView
+                        android:text="Upload Foto"
+                        android:layout_below="@id/imvw_icon_01"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/imvw_product_00"
+                        app:riv_corner_radius="5dp"
+                        android:layout_margin="2dp"
+                        android:scaleType="fitCenter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/bbtn_save_00"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="2.5"
+                    android:background="@drawable/ripple_btn"
+                    android:text="Simpan"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/bbtn_cancel_00"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/ripple_btn_cancel"
+                    android:text="Batal"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

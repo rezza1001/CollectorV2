@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.wadaro.collector">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:replace="android:theme"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!-- map wadaro -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAObEAyGg8ce0PgTmopNqyfjdRqhAPi6Dg" />
+
+        <activity android:name=".ui.auth.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.auth.LoginActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".ui.auth.ForgotPwdActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.home.HomePageActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.assignment.DetilActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.profile.ChangePasswodActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.profile.ChangePhotoActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".component.SelectActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.assignment.UpdateActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.assignment.ChangeProductActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.assignment.DenahActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.offline.DraftSurveyActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.auth.UpdateAppsActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.assignment.ConfirmationActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.overcredit.DetailActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.overcredit.UpdateActivity" android:screenOrientation="nosensor" />
+        <activity android:name=".ui.overcredit.OverCreditActivity" android:screenOrientation="nosensor" />
+        <activity android:name="com.rentas.ppob.settings.pin.CreateNewPinActivity" android:screenOrientation="nosensor" />
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

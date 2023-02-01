@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.assignment.fragment.TabelFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:background="#28000000"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+                        <TextView
+                            android:text="No.TTB"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:textColor="#de000000"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"/>
+                        <TextView
+                            android:text="Koordinator"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:textColor="#de000000"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:layout_width="130dp"
+                            android:layout_height="match_parent"/>
+
+                        <TextView
+                            android:text="Angsuran"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:textColor="#de000000"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"/>
+                        <TextView
+                            android:text="Total Angsuran"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:textColor="#de000000"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"/>
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rcvw_data_00"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/txvw_size_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total ada 0 titik survey"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                />
+
+            <LinearLayout
+                android:id="@+id/lnly_denah_00"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Denah Lokasi"
+                    android:textColor="#de000000"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcvw_denah_00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

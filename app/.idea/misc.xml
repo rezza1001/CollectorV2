@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/app/src/main/res/drawable/ic_ppob.xml" value="0.2745" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/app/src/main/res/layout/assignment_activity_confirmation.xml" value="0.36302083333333335" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/app/src/main/res/layout/assignment_activity_detail.xml" value="0.3723958333333333" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/app/src/main/res/layout/assignment_activity_update.xml" value="0.14722222222222223" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/app/src/main/res/layout/fragment_tabel.xml" value="0.36302083333333335" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/app/src/main/res/layout/profile_activity_chngphoto.xml" value="0.36302083333333335" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/app/src/main/res/layout/recap_fragment_main.xml" value="0.36302083333333335" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/app/src/main/res/layout/testactivity.xml" value="0.1" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/app/src/main/res/layout/ui_databooking_frg_main.xml" value="0.36302083333333335" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/modulppob/src/main/res/drawable/editext_otp.xml" value="0.2385" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/modulppob/src/main/res/drawable/ic_warning.xml" value="0.251" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/modulppob/src/main/res/drawable/ic_wifi_on.xml" value="0.251" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/modulppob/src/main/res/layout/activity_otp.xml" value="0.36302083333333335" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/modulppob/src/main/res/layout/component_dialog_chooser.xml" value="0.36302083333333335" />
+        <entry key="..\:/Project/umbrella/rentas/wardo/collector/modulppob/src/main/res/layout/component_loading.xml" value="0.36302083333333335" />
+        <entry key="src/main/res/layout/assignment_activity_confirmation.xml" value="0.4083333333333333" />
+        <entry key="src/main/res/layout/assignment_activity_detail.xml" value="0.4083333333333333" />
+        <entry key="src/main/res/layout/assignment_activity_update.xml" value="0.4083333333333333" />
+        <entry key="src/main/res/layout/ui_databooking_adapter_consumer.xml" value="0.40205128205128204" />
+        <entry key="src/main/res/layout/ui_databooking_frg_main.xml" value="0.4083333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

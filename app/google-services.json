@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "833886586540",
+    "project_id": "collector-aab8e",
+    "storage_bucket": "collector-aab8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833886586540:android:27091e79eb0f2ab2acc109",
+        "android_client_info": {
+          "package_name": "com.wadaro.collector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833886586540-d7ag18pdv50c0iqououga60lpq1heuol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7wXnUmxEJx_esEtDrXbdt5VLgPtOIcEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833886586540-d7ag18pdv50c0iqououga60lpq1heuol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
